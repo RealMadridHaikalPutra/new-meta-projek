@@ -10,16 +10,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #555555;
+  color: #790404;
 }
 
 a {
   text-decoration: none;
-  color: #7cc576;
+  color: #790404;
 }
 
 a:hover {
-  color: #9ed49a;
+  color: #b40404;
   text-decoration: none;
 }
 
@@ -82,8 +82,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
-  box-shadow: 0 4px 10px -3px hsla(0deg, 0%, 75%, 0.5);
+  background: rgb(0, 0, 0);
+  box-shadow: 0 4px 10px -3px rgba(0, 0, 0, 0.5);
 }
 
 #header .logo h1 {
@@ -97,7 +97,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #fff;
+  color: rgb(161, 12, 12);
   text-decoration: none;
 }
 
@@ -1618,7 +1618,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/footer/background-footer.png") center center no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1643,7 +1643,7 @@ section {
 }
 
 #footer .footer-top .footer-logo img {
-  height: 80px;
+  height: 150px;
 }
 
 #footer .footer-top h3 {
